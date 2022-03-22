@@ -9,6 +9,7 @@ switch (operation) {
         let result=first_num_number+ second_num_number;
         console.log(result);
         alert(result);
+        document.write(result)
             break;
     }
         
@@ -17,18 +18,21 @@ switch (operation) {
         let result=first_num_number-second_num_number;
         console.log(result);
         alert(result);
+        document.write(result)
             break;
     }
     case "*":{
         let result=first_num_number*second_num_number;
         console.log(result);
         alert(result);
+        document.write(result)
             break;
     }
     case "/":{
         let result=first_num_number/ second_num_number;
         console.log(result);
         alert(result);
+        document.write(result)
             break;
     }
 }

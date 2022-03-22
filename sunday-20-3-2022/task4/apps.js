@@ -7,22 +7,26 @@ let z_num=Number(z);
 
 if((x_num%3==0) || (y_num%3==0)||(z_num%3==0)){
     console.log('fizz');
-    document.getElementById('result').innerHTML="fizz";
+    document.write('fizz')
 }
 else{
     console.log('nothing ');
+    document.write('nothing')
 }
 if((x_num%5==0) || (y_num%5==0)||(z_num%5==0)){
     console.log('buzz');
-    document.getElementById('result').innerHTML="fuzz";
+    document.write('buz')
+   
 }
 else{
     console.log('nothing ');
+    document.write('nothing')
 }
-if((x_num%3==0) && (x_num%5==0)||(y_num%3==0) &&(y_num%5==0)) || ((z_num%3==0)&&(z_num%5==0))){
+if(((x_num%3==0) && (x_num%5==0))||((y_num%3==0) &&(y_num%5==0)) || ((z_num%3==0)&&(z_num%5==0))){
     console.log('fizz buzz');
-    document.getElementById('result').innerHTML="fizz buzz";
+    document.write('fizz buzz')
 }
 else{
     console.log('nothing ');
+    document.write('nothing')
 }
